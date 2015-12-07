@@ -1,0 +1,4 @@
+export const SET_POST_QUERY = 'SET_POST_QUERY';
+export const FETCH_NEXT_PAGE = 'FETCH_NEXT_PAGE';
+export const RECEIVE_POSTS = 'RECEIVE_POSTS';
+export const FETCH_POSTS_ERROR = 'FETCH_POSTS_ERROR';

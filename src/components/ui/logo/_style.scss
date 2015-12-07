@@ -1,0 +1,18 @@
+.logo,
+.logo__image {
+	display: block;
+}
+
+.logo {
+	float: left;
+}
+
+.logo__image {
+	width: 3.4rem;
+	height: auto;
+	border-radius: 50%;
+
+	@include desktop() {
+		width: 2.2rem;
+	}
+}

@@ -1,0 +1,15 @@
+.terms-list {
+	@include reset-list;
+}
+
+.terms-list__term {
+	display: inline-block;
+
+	&:before {
+		content: ', '
+	}
+
+	&:first-of-type:before {
+		content: '';
+	}
+}
